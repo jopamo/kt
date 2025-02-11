@@ -1,0 +1,29 @@
+BasedOnStyle: LLVM
+IndentWidth: 2
+UseTab: Never
+BreakBeforeBraces: Stroustrup
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+AllowShortFunctionsOnASingleLine: All
+AllowShortBlocksOnASingleLine: Always
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortCompoundRequirementOnASingleLine: true
+AllowShortEnumsOnASingleLine: true
+AllowShortLambdasOnASingleLine: All
+AllowShortLoopsOnASingleLine: true
+
+AlignConsecutiveDeclarations: false
+IndentCaseLabels: false
+BinPackArguments: false
+BinPackParameters: false
+SpaceBeforeParens: ControlStatements
+Cpp11BracedListStyle: false
+
+ColumnLimit: 120
+
+SpaceAfterCStyleCast: true
+SpacesInParentheses: false
+PointerAlignment: Right
+
+AllowAllParametersOfDeclarationOnNextLine: false
+MaxEmptyLinesToKeep: 1
+CommentPragmas: "^\\s*(TODO|FIXME|XXX):"
